@@ -1,0 +1,544 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-family: "Work Sans", sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.clear::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+.f-left{
+    float: left;
+}
+.f-right{
+    float: right;
+}
+
+.btn1{
+  background-color: #fff;
+  border: none;
+  color: #7d7d7d;
+  padding: 12px 28px;
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer
+}
+
+.btn-form{
+    background-color: #aa972c;
+    border: none;
+    color: #fff;
+    padding: 15px 55px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin: 4px 2px;
+    cursor: pointer
+  }
+
+.m-right{
+    margin-right: 5%;
+}
+
+/* Header Style Start */
+.header{
+    padding: 10px 0;
+    margin-bottom: -5px;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+}
+.header .left-logo a img{
+    width: 80px;
+}
+
+/* .header{} */
+.header .right-menu{
+    text-align: right;
+}
+.header .right-menu ul{
+    list-style: none;
+}
+.header .right-menu ul li{
+    display: inline-block;
+}
+.header .right-menu ul li a{
+    text-decoration: none;
+    color: #000;
+    padding-left: 60px;
+    line-height: 45px;
+    font-weight: 600;
+    transition: .5s;
+}
+.header .right-menu ul li a:hover{
+    color: #e79230;
+}
+/* Header Style End */
+
+
+/* Banner Style Start */
+.banner{
+    background-image: url(https://img.hotimg.com/kobu-agency-IWLR561-Yb-MY-unsplash.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 250px 0;
+    text-align: center;
+    margin-top: 68px;
+}
+.banner .banner-content{
+    color: #fff;
+}
+.banner .banner-content p{
+    font-size: 25px;
+    font-weight: 400;
+}
+.banner .banner-content h1{
+    font-size: 60px;
+    font-weight: 900;
+    margin: 20px 0;
+}
+
+.banner .banner-content button a{
+    text-decoration: none;
+    color: #7d7d7d;
+}
+.banner .banner-content button{
+    transform: .8s;
+}
+.banner .banner-content button:hover{
+    background: #e2aa46;
+    
+}
+.banner .banner-content button:hover a{
+    color: #fff;
+}
+/* Banner Style End */
+
+
+/* Offer Section Style Start */
+.offer{
+    background: #f7f7f7;
+    padding: 30px 0;
+    text-align: center;
+}
+.offer h2{
+    margin-bottom: 20px;
+}
+
+.offer p{
+    margin-bottom: 45px;
+}
+
+/* Card Top Start */
+.offer .card{
+    background: #fff;
+    border: none;
+    width: 30%;
+    box-sizing: border-box;
+    text-align: left;
+    transition: .6s;
+    box-shadow: 1px 1px 10px 5px rgba(0,0,0,.2);
+}
+.offer .card .top-part{
+    border-bottom: 3px solid #f7f7f7;
+    padding: 25px;
+}
+.offer .card .top-part p{
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.offer .card .top-part span{
+    font-size: 14px;
+    padding: 5px 15px;
+    
+    
+}
+.offer .card .top-part .price span{
+    background: #f5f5f5;
+    font-weight: 800;
+    display: block;
+    height: 60px;
+}
+.offer .card .top-part .price span h2{
+    font-size: 45px;
+    display: inline-block;
+}
+.offer .card .top-part p{
+
+    margin-bottom: 20px;
+}
+
+.fw-none{
+    font-weight: 400 !important;
+    font-size: 18px !important;
+}
+button a{
+display: inline-block;
+text-decoration: none;
+}
+/* offer Hover */
+.offer .card:hover .top-part{
+    background: #e79230;
+    color: #fff;
+}
+.offer .card:hover .price span{
+    background: #e79230;
+    color: #fff;
+}
+
+.offer .card:hover a{
+    background: #e79230;
+    color: #fff !important;
+}
+
+/* offer Hover */
+
+
+/* Card Top end */
+
+/* Card Bottom Start */
+.offer .card .bottom-part{
+    padding: 25px;
+}
+.offer .card .bottom-part ul{
+    list-style: none;
+    
+}
+.offer .card .bottom-part ul li{
+    line-height: 2.8rem;
+   
+}
+.offer .card .bottom-part ul li i{
+    margin-right: 15px;
+    color: #e79230;
+    font-size: 20px;
+}
+
+.offer .card .bottom-part a{
+    color: #7d7d7d;
+    
+}
+
+.offer .card .bottom-part ul .check li::before{
+    content: '\f00c  ';
+    font-family: "FontAwesome";
+    font-weight: 900;
+    color: #ef664d;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.offer .card .bottom-part ul .cross li::before{
+    content: '\f00d  ';
+    font-family: "FontAwesome";
+    font-weight: 900;
+    color: #ef664d;
+    font-size: 20px;
+    margin-right: 10px;
+}
+/* Card Bottom End */
+
+.offer a{
+   margin-left: 30%;
+   text-decoration: none;
+   border: none;
+   box-shadow: 1px 1px 5px 2px rgba(0,0,0,.5);
+}
+
+/* Offer Section Style End */
+
+
+/* Team Section Start */
+.team{
+    padding: 50px 0;
+    text-align: center;
+}
+.team h3{
+    font-size: 35px;
+    margin: 25px 0;
+}
+
+.team p{
+    margin-bottom: 50px;
+    color: #7d7d7d;
+    font-size: 14px;
+}
+
+.team .team-members .member{
+    width: 21.25%;
+    border: 5px double #e79230;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+.team .team-members .member img{
+    max-width: 100%;
+    transition: .5s;
+}
+.team .team-members .member img:hover{
+    transform: scale(1.05);
+}
+.team .team-members .member h4{
+    text-align: left;
+    padding: 5px 20px;
+}
+.team .team-members .member p{
+    margin-bottom: 15px;
+    text-align: left;
+    padding: 5px 20px;
+    color: #7d7d7d;
+}
+/* Team Section End */
+
+
+/* From Part Newsletter Style Start  */
+.newsletter{
+    background: #f5f5f5;
+    text-align: center;
+    padding: 100px 0;
+}
+.newsletter p{}
+.newsletter h1{
+    font-weight: 500;
+    font-size: 40px;
+    margin: 40px 0;
+}
+.newsletter form{}
+.newsletter form .email{
+    width: 400px;
+    padding: 15px 10px;
+    border: 2px solid #bcc633;
+    border-radius: 5px;
+    font-size: 17px;
+    
+}
+.newsletter form .btn-form{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    transition: .5s;
+}
+
+.newsletter form .btn-form:hover{
+    background: #fff;
+    color: #90750e;
+    border: 2px solid #90750e;
+    border-radius: 6px;
+    font-weight: 600;
+}
+/* From Part Newsletter Style End  */
+
+
+/* Service Style Start */
+.service{
+    padding: 5px 0;
+    text-align: center;
+}
+.service h3{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.service .left-img {
+    width: 35%;
+    overflow: hidden;
+}
+.service .left-img img{
+    max-width: 100%;
+    transition: .5s;
+}
+.service .left-img img:hover{
+    transform: scale(1.05);
+}
+.service .right-content{
+    width: 62%;
+    text-align: left;
+    /* margin-left: 3%; */
+    box-sizing: border-box;
+}
+.service .right-content h4{
+    margin: 10px 0;
+}
+.service .right-content h4 span{
+    margin-right: 5px;
+}
+.service .right-content p{
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+/* Service Style End */
+
+
+/* User Comments Section Style Start */
+.comments{
+    background: #f5f5f5;
+    padding: 100px 0;
+    text-align: center;
+}
+.comments p{}
+
+.comments h1{
+    margin: 60px 0;
+}
+.comments-card{
+    width: 30%;
+    box-sizing: border-box;
+    border: 2px solid #ddd;
+    
+}
+.comments-card .user-comments{
+    text-align: left;
+    background: #fff;
+    
+    display: inline-block;
+}
+
+.comments-card .user-comments p{
+    line-height: 2.5rem;
+    padding: 45px 25px;
+    font-size: 18px;
+    position: relative;
+}
+.comments-card .user-comments p::before{
+    content: "\f10d";
+    font-family: FontAwesome;
+    font-size: 81px;
+    position: absolute;
+    opacity: .15;
+    left: 16px;
+    top: 38px;
+}
+.comments-card .user .trangle{
+position: absolute;
+top: 0;
+left: 44%;
+width: 0;
+height: 0;
+border: 0 solid transparent;
+border-left-width: 15px;
+border-right-width: 15px;
+border-top: 20px solid rgb(255, 255, 255);
+}
+.user {
+    position: relative;
+    padding: 30px 0px 15px 45px;
+    background: #f5f5f5;
+    box-sizing: border-box;
+   
+}
+.user .user-img{
+    border: 8px solid #aa972c;
+    
+}
+.user .user-img img{
+    width: 80px;
+    margin-bottom: -5px;
+    
+}
+.user .user-name{
+    margin-left: 20px;
+    
+}
+.user .user-name h5{
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.user .user-name p{
+   padding: 0;
+   color: #a39ba5;
+   text-align: left;
+   margin-top: 10px;
+}
+/* User Comments Section Style End */
+
+
+/* Contact Section Style Start */
+.contact{
+    text-align: center;
+    padding: 70px 0;
+}
+.contact .mid-content{
+    width: 50%;
+    margin: auto;
+}
+.contact .mid-content h3{
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.contact .mid-content p{
+    margin-bottom: 50px;
+}
+.contact .mid-content form{}
+.contact .mid-content form input{
+    padding: 10px 15px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 2px solid #aa972c;
+}
+.contact .mid-content form input[type="email"]{
+    width: 100%;
+    margin-bottom: 15px;
+    
+}
+.contact .mid-content form input[type="text"]{
+    width: 48%;
+    /* margin-right: 30px; */
+}
+.contact .mid-content form input[type="tel"]{
+    width: 48%;
+    margin-left: 2.6%;
+}
+.contact .mid-content form textarea{
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 2px solid #aa972c;
+}
+
+.btn-send{
+    width: 160px;
+    margin-top: 18px;
+    transition: .5s;
+}
+
+.btn-send:hover{
+    background: #fff;
+    color: #90750e;
+    border: 2px solid #90750e;
+    border-radius: 6px;
+    font-weight: 600;
+}
+/* Contact Section Style End */
+
+
+/* Footer Style Start */
+.footer{
+    text-align: center;
+    padding-bottom: 30px;
+}
+/* Footer Style End */
